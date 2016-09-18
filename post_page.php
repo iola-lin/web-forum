@@ -44,6 +44,12 @@
 				<input type="submit" value="送出">
 				<input type="checkbox" name="saveAsDraft" value="draft">存成草稿
 			</div>
+			<br><br>
+			
+			<div>
+			<input type="button" onclick="history.back()" value="返回上一頁">
+			</div>
+			
 		</form>	
 		
 <?php include_once "footer.html"; ?>

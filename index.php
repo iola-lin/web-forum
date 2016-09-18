@@ -24,7 +24,7 @@
 		<?php
 		if(!$_SESSION['login']){
 		?>
-			<a href="<?php echo "http://".$_SERVER['HTTP_HOST']."/".$project_name."/login.html"; ?>">
+			<a href="<?php echo "http://".$_SERVER['HTTP_HOST']."/".$project_name."/member_login.php"; ?>">
 			<input type="button" value="登入"></a>
 		<?php }
 		else{
